@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media (max-width: 768px) {
+    #a1 {
+        width: 90%;
+    }
+
+    #a2 {
+        width: 70%;
+    }
+
+    #a3 {
+        width: 20%;
+    }
+}
+
+@media (max-width: 480px) {
+    #a1 {
+        width: 100%;
+    }
+
+    #a2 {
+        width: 60%;
+    }
+
+    #a3 {
+        width: 30%;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+    }
+
+    .text-2xl {
+        font-size: 1.25rem;
+    }
+
+    .pl-4 {
+        padding-left: 0.5rem;
+    }
+}
