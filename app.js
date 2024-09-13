@@ -12,7 +12,7 @@ function addTask() {
         let delIcon = document.createElement("img");
         
         img.src = "unchecked.png";
-        img.classList.add("h-7", "w-7");
+        img.classList.add("h-6", "w-6");
         img.style.display = "block";
         
         li.innerText = value;
